@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "portfolio-aryan",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/resume", "destination": "/terminal.html" }
+  ]
+}

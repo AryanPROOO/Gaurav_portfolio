@@ -522,12 +522,12 @@ class TerminalResume {
   }
 
   printWelcomeMessage(outputElement = this.output) {
-    const asciiArt = `███╗   ███╗ █████╗ ██████╗ ██╗ ██████╗
-████╗ ████║██╔══██╗██╔══██╗██║██╔═══██╗
-██╔████╔██║███████║██████╔╝██║██║   ██║
-██║╚██╔╝██║██╔══██║██╔══██╗██║██║   ██║
-██║ ╚═╝ ██║██║  ██║██║  ██║██║╚██████╔╝
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ `;
+    const asciiArt = ` █████╗ ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗
+██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║
+███████║██████╔╝ ╚████╔╝ ███████║██╔██╗ ██║
+██╔══██║██╔══██╗  ╚██╔╝  ██╔══██║██║╚██╗██║
+██║  ██║██║  ██║   ██║   ██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝`;
 
     const divider = "─────────────────────────────────────────────────";
 
@@ -651,11 +651,11 @@ ${this.wrapWithColor(
   "#ff8c00"
 )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
-      "Senior software engineer with more than 10 years of",
+      "B.Tech Artificial Intelligence student passionate about",
       "#ffffff"
     )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
-      "programming experience.",
+      "building real-world, intelligent systems.",
       "#ffffff"
     )}
 ${this.wrapWithColor(
@@ -663,36 +663,36 @@ ${this.wrapWithColor(
   "#ff8c00"
 )}
 
-${this.wrapWithColor("⚡ Experience", "#ff8c00")}
+${this.wrapWithColor("⚡ Expertise", "#ff8c00")}
 ${this.wrapWithColor(
-  "   Building scalable and efficient software solutions using",
+  "   Strong foundations in Machine Learning, Deep Learning,",
   "#ffffff"
 )}
-${this.wrapWithColor("   React, JavaScript, and Google Cloud", "#ff8c00")}
+${this.wrapWithColor("   and Data Analytics using Python, SQL, and Power BI.", "#ff8c00")}
 
-${this.wrapWithColor("⚡ Passion", "#ff8c00")}
+${this.wrapWithColor("⚡ Research", "#ff8c00")}
 ${this.wrapWithColor(
-  "   Transforming innovative ideas into high-quality applications",
+  "   Actively contributing to AI innovation, including",
   "#ffffff"
 )}
 ${this.wrapWithColor(
-  "   with elegant and efficient implementations",
+  "   the 'WinoLiquid Architecture' research paper.",
   "#ffffff"
 )}
 
-${this.wrapWithColor("⚡ Strengths", "#ff8c00")}
+${this.wrapWithColor("⚡ Tech Stack", "#ff8c00")}
 ${this.wrapWithColor(
-  "   Strong team player with expertise in designing robust,",
+  "   Hands-on with LLMs, RAG, LangChain, and MCP for",
   "#ffffff"
 )}
-${this.wrapWithColor("   high-performance systems", "#ffffff")}
+${this.wrapWithColor("   scalable AI applications.", "#ffffff")}
 
 ${this.wrapWithColor(
   "╭───────────────────────────────────────────────────────╮",
   "#ff8c00"
 )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
-      "Ready to bring your innovative ideas to life!",
+      "Solving meaningful problems through AI innovation!",
       "#ffffff"
     )} ${this.wrapWithColor("│", "#ff8c00")}
 ${this.wrapWithColor(
@@ -780,139 +780,61 @@ ${this.wrapWithColor(
   showExperience(outputElement = this.output) {
     const experience = `<span style="color: #ffff00; font-weight: bold;">💼 Professional Experience</span>
 
-<span style="color: #00ffff;">UNICEPTA | Senior Software Engineer</span>
+<span style="color: #00ffff;">ADHVX INDUSTRIES | Embedded Machine Learning Intern</span>
 ${this.wrapWithColor(
-  "Jul 2020 - Present | Cologne, Germany | 450+ employees",
-  "#ffffff"
-)}
-${this.wrapWithColor(
-  "Visionary, AI-powered Media & Data Intelligence Solutions",
-  "#98fb98"
-)}
-
-• ${this.wrapWithColor("Part of Core team", "#ffa07a")} - ${this.wrapWithColor(
-      "Architect and part of every decision.",
-      "#ffffff"
-    )}
-• ${this.wrapWithColor(
-      "Microservices engineer",
-      "#ffa07a"
-    )} - ${this.wrapWithColor(
-      "Designed and build services for distributed system",
-      "#ffffff"
-    )}
-• ${this.wrapWithColor("Pipeline engineer", "#ffa07a")} - ${this.wrapWithColor(
-      "Google cloud engineer for data pipeline",
-      "#ffffff"
-    )}
-• ${this.wrapWithColor("Fullstack engineer", "#ffa07a")} - ${this.wrapWithColor(
-      "Wrote and reviewed code for front/back/cloud.",
-      "#ffffff"
-    )}
-
-${this.wrapWithColor("Technologies used:", "#00ffff")} ${this.wrapWithColor(
-      "Typescript, React, NodeJs, Poetry, PyTest, ReactJS, Jest, Cypress, ES6, ElasticSearch, Google Cloud, JIRA, Firebase, Kubernetes, Data Flow",
-      "#87cefa"
-    )}
-
-<span style="color: #00ffff;">RITECH SOLUTIONS | Senior Software Engineer</span>
-${this.wrapWithColor(
-  "Jul 2018 – Jul 2020 | Tirana, Albania | 100-150 employees",
+  "Jan 2026 - Present | Chennai, India",
   "#ffffff"
 )}
 
-• ${this.wrapWithColor("Part of Core team", "#ffa07a")} - ${this.wrapWithColor(
-      "Team that leads company tech decisions",
+• ${this.wrapWithColor("Embedded Firmware", "#ffa07a")} - ${this.wrapWithColor(
+      "Developed low-latency firmware for real-time vibration monitoring.",
       "#ffffff"
     )}
-• ${this.wrapWithColor("Tech interviewer", "#ffa07a")} - ${this.wrapWithColor(
-      "Interview potential candidates.",
+• ${this.wrapWithColor("Edge AI", "#ffa07a")} - ${this.wrapWithColor(
+      "Deployed quantized CNN autoencoders on edge devices for anomaly detection.",
       "#ffffff"
     )}
-• ${this.wrapWithColor("Microsoft project", "#ffa07a")} - ${this.wrapWithColor(
-      "IOT marketing project in every Microsoft store.",
-      "#ffffff"
-    )}
-• ${this.wrapWithColor("Fullstack engineer", "#ffa07a")} - ${this.wrapWithColor(
-      "Wrote and reviewed code for big projects.",
-      "#ffffff"
-    )}
-• ${this.wrapWithColor(
-      "AppriseMobile Tech Lead",
-      "#ffa07a"
-    )} - ${this.wrapWithColor(
-      "CRM for Toyota and corporates in USA",
+• ${this.wrapWithColor("Signal Processing", "#ffa07a")} - ${this.wrapWithColor(
+      "Built signal-processing pipelines for proactive fault detection.",
       "#ffffff"
     )}
 
-${this.wrapWithColor("Technologies used:", "#00ffff")} ${this.wrapWithColor(
-      "JavaScript, Python, pandas, NodeJs, ReactJS, Chai, Sinon, Mocha, ES6, ElasticSearch, Redis, Nginx, Gulp, JIRA, Docker, Azure, AWS, MongoDB",
-      "#87cefa"
-    )}
-
-<span style="color: #00ffff;">GUTENBERG TECHNOLOGY | Software Engineering</span>
+<span style="color: #00ffff;">CV RAMAN UNIVERSITY | Research Scholar</span>
 ${this.wrapWithColor(
-  "Feb 2017 – Aug 2018 | Paris, France | 50-100 employees",
+  "Jan 2026 – Present | Bhubaneswar, India",
   "#ffffff"
 )}
 
-• ${this.wrapWithColor(
-      "Fullstack developer",
-      "#ffa07a"
-    )} - ${this.wrapWithColor(
-      "Frontend and backend (real-time publisher platform) used by National Geographics, IUBH, Fujitsu",
+• ${this.wrapWithColor("Liquid Neural Networks", "#ffa07a")} - ${this.wrapWithColor(
+      "Built parameter-efficient LNNs for epileptic seizure prediction.",
       "#ffffff"
     )}
-• ${this.wrapWithColor("MEFIO developer", "#ffa07a")} - ${this.wrapWithColor(
-      "Highly available publisher platform",
+• ${this.wrapWithColor("ML Pipelines", "#ffa07a")} - ${this.wrapWithColor(
+      "Designed end-to-end production ML pipelines for EEG datasets.",
       "#ffffff"
     )}
-• ${this.wrapWithColor(
-      "Webreader developer",
-      "#ffa07a"
-    )} - ${this.wrapWithColor(
-      "reader platform, e-Learning platform",
-      "#ffffff"
-    )}
-• ${this.wrapWithColor("SaaS developer", "#ffa07a")} - ${this.wrapWithColor(
-      "Integrated strategy to migrate from manual sales to SaaS",
+• ${this.wrapWithColor("Edge Inference", "#ffa07a")} - ${this.wrapWithColor(
+      "Benchmarked edge inference on Raspberry Pi for real-time deployment.",
       "#ffffff"
     )}
 
-${this.wrapWithColor("Technologies used:", "#00ffff")} ${this.wrapWithColor(
-      "Python, ES6, ElasticSearch, Redis, Nginx, npm, Gulp, JIRA, Docker, AWS S3, RethinkDB, ReactJS, NodeJS, AngularJS, JavaScript",
-      "#87cefa"
-    )}
-
-<span style="color: #00ffff;">GROUP OF COMPANIES | Software Engineer</span>
+<span style="color: #00ffff;">AICTE EDUSKILLS | Machine Learning Intern</span>
 ${this.wrapWithColor(
-  "Mar 2015 – Feb 2017 | Tirana, Albania | 5-30 employees",
+  "Jul 2024 – Sep 2024 | Online",
   "#ffffff"
 )}
 
-• ${this.wrapWithColor("Software developer", "#ffa07a")} - ${this.wrapWithColor(
-      "Developed web and native projects",
+• ${this.wrapWithColor("Computer Vision", "#ffa07a")} - ${this.wrapWithColor(
+      "Developed CNNs for image classification achieving 92% accuracy.",
       "#ffffff"
     )}
-• ${this.wrapWithColor("Bar management app", "#ffa07a")} - ${this.wrapWithColor(
-      "Developed app for bar/restaurant management.",
+• ${this.wrapWithColor("Optimization", "#ffa07a")} - ${this.wrapWithColor(
+      "Reduced training time by 30% through architecture optimization.",
       "#ffffff"
     )}
-• ${this.wrapWithColor(
-      "Bank system optimisation",
-      "#ffa07a"
-    )} - ${this.wrapWithColor(
-      "Optimised aggregation from 11h to 1h",
+• ${this.wrapWithColor("Transfer Learning", "#ffa07a")} - ${this.wrapWithColor(
+      "Implemented ResNet-50 on large scale image datasets.",
       "#ffffff"
-    )}
-• ${this.wrapWithColor("UKD developer", "#ffa07a")} - ${this.wrapWithColor(
-      "Water supply billing process for Albania, Government project",
-      "#ffffff"
-    )}
-
-${this.wrapWithColor("Technologies used:", "#00ffff")} ${this.wrapWithColor(
-      "Typescript, Python, Gulp, Docker, MongoDB, ReactJS, NodeJs, AngularJS, JavaScript, Java",
-      "#87cefa"
     )}`;
 
     const experienceDiv = document.createElement("div");
@@ -938,15 +860,15 @@ ${this.wrapWithColor(
 )}
 
 ${this.wrapWithColor("🏛️ Institution:", "#ff8c00")} ${this.wrapWithColor(
-      "University of Tirana",
+      "SRM Institute of Science and Technology",
       "#ffffff"
     )}
 ${this.wrapWithColor("📅 Duration:", "#ff8c00")}    ${this.wrapWithColor(
-      "2013 - 2016",
+      "2023 - Present",
       "#ffffff"
     )}
 ${this.wrapWithColor("📍 Location:", "#ff8c00")}    ${this.wrapWithColor(
-      "Tirana, Albania",
+      "Chennai, India",
       "#ffffff"
     )}
 
@@ -970,32 +892,17 @@ ${this.wrapWithColor(
   }
 
   showSkills(outputElement = this.output) {
-    const skills = `<span style="color: #ffff00; font-weight: bold;">🛠️ PROGRAMMING</span>
+    const skills = `<span style="color: #ffff00; font-weight: bold;">🛠️ TECHNICAL SKILLS</span>
 
-• ${this.wrapWithColor("Typescript", "#ffffff")}
-• ${this.wrapWithColor("Python", "#ffffff")}
-• ${this.wrapWithColor("Javascript", "#ffffff")}
-• ${this.wrapWithColor("Node", "#ffffff")}
-• ${this.wrapWithColor("React", "#ffffff")}
-• ${this.wrapWithColor("Angular", "#ffffff")}
-• ${this.wrapWithColor("Google Cloud", "#ffffff")}
-• ${this.wrapWithColor("AWS", "#ffffff")}
-• ${this.wrapWithColor("Azure", "#ffffff")}
-• ${this.wrapWithColor("Docker", "#ffffff")}
-• ${this.wrapWithColor("Terraform", "#ffffff")}
-• ${this.wrapWithColor("Kubernetes", "#ffffff")}
-• ${this.wrapWithColor("Java", "#ffffff")}
-• ${this.wrapWithColor("Kotlin", "#ffffff")}
-• ${this.wrapWithColor("MongoDB", "#ffffff")}
-• ${this.wrapWithColor("RethinkDB", "#ffffff")}
-• ${this.wrapWithColor("Jest", "#ffffff")}
-• ${this.wrapWithColor("ElasticSearch", "#ffffff")}
-• ${this.wrapWithColor("GraphQL", "#ffffff")}
-• ${this.wrapWithColor("Express", "#ffffff")}
-• ${this.wrapWithColor("Redis", "#ffffff")}
-• ${this.wrapWithColor("SQL", "#ffffff")}
-• ${this.wrapWithColor("HTML", "#ffffff")}
-• ${this.wrapWithColor("CSS", "#ffffff")}`;
+• ${this.wrapWithColor("Python (Pandas, NumPy, Matplotlib, Seaborn)", "#ffffff")}
+• ${this.wrapWithColor("Machine Learning (Scikit-Learn, Random Forest, SVM)", "#ffffff")}
+• ${this.wrapWithColor("Deep Learning (TensorFlow, Keras, CNN, ResNet)", "#ffffff")}
+• ${this.wrapWithColor("Generative AI (LLMs, RAG, LangChain, MCP)", "#ffffff")}
+• ${this.wrapWithColor("Data Analytics (Power BI, Excel, Tableau)", "#ffffff")}
+• ${this.wrapWithColor("Computer Vision (OpenCV, HF Transformers)", "#ffffff")}
+• ${this.wrapWithColor("Databases (SQL, MongoDB, InfluxDB)", "#ffffff")}
+• ${this.wrapWithColor("Dev Tools (Git, Docker, Jupyter, CI/CD)", "#ffffff")}
+• ${this.wrapWithColor("Architecture (LNN, Edge AI, RAG Pipelines)", "#ffffff")}`;
 
     const skillsDiv = document.createElement("div");
     skillsDiv.innerHTML = skills;
@@ -1017,7 +924,7 @@ ${this.wrapWithColor("✉", "#ff8c00")}  ${this.wrapWithColor(
       "Email:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="mailto:marjoballabani@gmail.com" style="color: #ffffff; text-decoration: none;">marjoballabani@gmail.com</a>',
+      '<a href="mailto:contact@aryantiwari.com" style="color: #ffffff; text-decoration: none;">contact@aryantiwari.com</a>',
       "#ffffff"
     )}
 
@@ -1025,7 +932,7 @@ ${this.wrapWithColor("🌐", "#ff8c00")}  ${this.wrapWithColor(
       "Website:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://marjoballabani.me" target="_blank" style="color: #ffffff; text-decoration: none;">marjoballabani.me</a>',
+      '<a href="https://aryantiwari.com" target="_blank" style="color: #ffffff; text-decoration: none;">aryantiwari.com</a>',
       "#ffffff"
     )}
 
@@ -1033,7 +940,7 @@ ${this.wrapWithColor("⚡", "#ff8c00")}  ${this.wrapWithColor(
       "Github:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://github.com/marjoballabani" target="_blank" style="color: #ffffff; text-decoration: none;">github.com/marjoballabani</a>',
+      '<a href="https://github.com/AryanPROOO" target="_blank" style="color: #ffffff; text-decoration: none;">github.com/AryanPROOO</a>',
       "#ffffff"
     )}
 
@@ -1041,7 +948,7 @@ ${this.wrapWithColor("💼", "#ff8c00")}  ${this.wrapWithColor(
       "LinkedIn:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://linkedin.com/in/marjo-ballabani" target="_blank" style="color: #ffffff; text-decoration: none;">linkedin.com/in/marjo-ballabani</a>',
+      '<a href="https://linkedin.com/in/aryanprooo" target="_blank" style="color: #ffffff; text-decoration: none;">linkedin.com/in/aryanprooo</a>',
       "#ffffff"
     )}
 
@@ -1107,21 +1014,22 @@ ${this.wrapWithColor("╰──────────────────�
 
   loadSkills() {
     this.skills = {
-      programming: {
-        JavaScript: 95,
-        Python: 90,
-        "React.js": 85,
-        "Node.js": 88,
+      ai_ml: {
+        "Machine Learning": 92,
+        "Deep Learning": 88,
+        "Generative AI": 85,
+        "Computer Vision": 82,
       },
-      cloud: {
-        "Google Cloud": 92,
-        AWS: 85,
-        Azure: 80,
+      data_analysis: {
+        Python: 95,
+        "Power BI": 90,
+        SQL: 85,
+        Excel: 88,
       },
-      databases: {
-        MongoDB: 90,
-        PostgreSQL: 85,
-        Redis: 82,
+      dev_tools: {
+        Git: 90,
+        Docker: 80,
+        "CI/CD": 75,
       },
     };
   }
@@ -1838,7 +1746,7 @@ ${this.wrapWithColor("╰──────────────────�
 
     // Add terminal title
     const terminalTitle = document.createElement("div");
-    terminalTitle.textContent = "marjo@ballabani: ~/interactive-resume";
+    terminalTitle.textContent = "aryan@tiwari: ~/interactive-resume";
     terminalTitle.style.color = "#f8f8f2";
     terminalTitle.style.fontSize = "12px";
     terminalTitle.style.fontFamily = "'Fira Code', monospace";
@@ -1867,12 +1775,12 @@ ${this.wrapWithColor("╰──────────────────�
     asciiArt.style.fontSize = "10px";
     asciiArt.style.fontFamily = "'Fira Code', monospace";
     asciiArt.style.lineHeight = "1";
-    asciiArt.innerHTML = `███╗   ███╗ █████╗ ██████╗ ██╗ ██████╗
-████╗ ████║██╔══██╗██╔══██╗██║██╔═══██╗
-██╔████╔██║███████║██████╔╝██║██║   ██║
-██║╚██╔╝██║██╔══██║██╔══██╗██║██║   ██║
-██║ ╚═╝ ██║██║  ██║██║  ██║██║╚██████╔╝
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ `;
+    asciiArt.innerHTML = ` █████╗ ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗
+██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║
+███████║██████╔╝ ╚████╔╝ ███████║██╔██╗ ██║
+██╔══██║██╔══██╗  ╚██╔╝  ██╔══██║██║╚██╗██║
+██║  ██║██║  ██║   ██║   ██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝`;
     terminalContent.appendChild(asciiArt);
 
     // Add divider
@@ -1895,7 +1803,7 @@ ${this.wrapWithColor("╰──────────────────�
 
     // Add role
     const role = document.createElement("div");
-    role.textContent = "Software Engineer • Cloud Architect • Tech Lead";
+    role.textContent = "AI Engineer • Data Analyst • ML Researcher";
     role.style.color = "#666666";
     role.style.fontSize = "10px";
     role.style.fontFamily = "'Fira Code', monospace";
@@ -2027,7 +1935,7 @@ ${this.wrapWithColor("╰──────────────────�
     urlContainer.style.textAlign = "center";
 
     const url = document.createElement("div");
-    url.textContent = "marjoballabani.me";
+    url.textContent = "aryantiwari.com";
     url.style.color = "#87cefa";
     url.style.fontSize = "12px";
     url.style.fontFamily = "'Fira Code', monospace";
